@@ -19,3 +19,5 @@ http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted
 
 -- 주문 취소 하기
 http PATCH localhost:8088/orders/1 state=OrderCancelled
+
+[![Build Status](https://dev.azure.com/admin240568/cicd/_apis/build/status/cicd-CI?branchName=master)](https://dev.azure.com/admin240568/cicd/_build/latest?definitionId=1&branchName=master)
